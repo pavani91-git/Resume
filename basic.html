@@ -4,40 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Sai Pavani Bhavanashi</h1>
-        <p>Java Full Stack Developer</p>
-        <p>KS, USA | +1 (913)-912-0506 | bhavanashi.saipavani@gmail.com | <a href="#">LinkedIn</a></p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
     </header>
     
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Java Full Stack Developer with 3+ years of experience in designing, developing, and optimizing scalable applications using Java 8, Spring Boot, Microservices, Hibernate, and React.js. Skilled in CI/CD automation, cloud deployment, and secure authentication mechanisms.</p>
+    <section id="home" class ="animate slide-up">
+        <h2>SAI PAVANI BHAVANASHI</h2>
+        <h4>Java Full stack Developer</h4>
+        <p>Experienced in designing, developing, and optimizing scalable applications </p>
     </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Languages: Core Java, Java 8, SQL</li>
-            <li>Frameworks: Spring Boot, Microservices, Hibernate, React.js</li>
-            <li>Web Technologies: HTML, CSS, JavaScript, Bootstrap</li>
-            <li>Databases: MySQL, PostgreSQL, MongoDB</li>
-            <li>Cloud & Tools: AWS, Azure, Jenkins, GitHub</li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <h3>Capital One Financial, KS, USA (Feb 2025 – Current)</h3>
-        <p>Java Full Stack Developer - Developed RESTful APIs, optimized UI, and enhanced security with OAuth 2.0 and JWT authentication.</p>
-
-        <h3>Code Tech, KS, USA (Aug 2024 - Dec 2024)</h3>
+    <section id="about" class ="animate slide-up">
+        <h2>About Me</h2>
         <p>Jr. Software Developer - Built backend services, improved database performance, and enhanced UI with React.js and Angular.</p>
     </section>
-    
+
+    <section id="skills" class ="animate slide-up">
+      <div class = "skill-card">
+        <div class = "skills-grid">
+        <h3>Frameworks</h3>
+        <ul>
+            <li>Spring MVC</li>
+            <li> JSF, Hibernate</li>
+            <li>Node.js, React.js</li>
+            <li>Spring Boot</li>
+            <li>Microservices, Spring Security, Angular</li>
+        </ul>
+      </div>
+      <div class="skills-grid">
+        <h3>Databases</h3>
+        <ul>
+            <li>MySQL</li>
+            <li>Postgre</li>
+            <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skills-grid">
+        <h3>Tools</h3>
+        <ul>
+            <li>UML</li>
+            <li>Maven</li>
+            <li>Gradle</li>
+            <li>Junit</li>
+        </ul>
+      </div>
+    </section>
+    <section id ="resume" class ="animate slide-up">
+        <h2>RESUME</h2>
+        <a href= "linked.pdf" class="download-btn">Download Me </a>
+        <p> <b>
+           <h4> EDUCATION </h4>
+            Masters in computer science  Dec 2024
+            University of Central Missouri 
+            Bachelors in Information Technology  Aug 2021
+        </p>
+         <p>  <h4>CERTIFICATION</h4>
+            AWS Certified Cloud Practitioner Essentials
+            Data Analysis with SQL
+            Programming for Everybody 
+            </b>
+            </p>
+    </section>
+    <section id="contact" class ="animate slide-up">
+        <h2>Contact</h2>
+        <p>Email :<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKhbkXfBhxgTFpMJGRvgmBZJhlnSLMmLmWpkbsvJQhvxzsxGTWFZprlmdTPjBMjdmDkQrZC" >pbhavanashi@gmail.com </a></p>
+        <p>Contact : 9139120506</p>
+    </section>
+    <footer>
+        <p> Pavani Bhavanashi 2025</p>
+    </footer>
+    <button class="scroll-top-btn" >Top</button>
     <script src="script.js"></script>
 </body>
 </html>
